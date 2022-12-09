@@ -31,7 +31,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <div className="max-w-sm card-body">
           <h2 className="card-title ">{projectName}</h2>
           <p>{projectDescription}</p>
-          <div className="flex">
+          <div className="flex" style={{flexWrap:'wrap'}}>
             {tech.map((tech) => (
               <div
                 className={`my-2 mr-2 badge ${

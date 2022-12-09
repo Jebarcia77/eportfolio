@@ -5,6 +5,9 @@ import pammImage  from "../assets/pamm.png";
 import smartmeImg from "../assets/smartme.png";
 import espeImg from "../assets/mct.jpg";
 import myappImg from "../assets/myapp.png";
+import eda from "../assets/eda.jpg";
+import loan from "../assets/loan.jpeg";
+import customerpred from "../assets/customerpred.jpg";
 import {
   ImageType,
   MenuProps,
@@ -13,22 +16,23 @@ import {
   TimelineProps,
 } from "../types/types";
 export const URL = "https://awesome-portfolio.piyushmehta.com";
-export const NAME = "John Barcia - Frontend Developer";
+export const NAME = "John Barcia - Developer & Data";
 
-export const SECTIONS = ["Home", "Experience", "Projects", "Skills"];
+export const SECTIONS = ["Home", "Experience","Skills", "Web Development Projects","Data Analytics Projects"];
 export const HERO_IMAGE = "https://picsum.photos/id/1005/1600/1400";
 export const CTA_TEXT = "Know More";
 export const MENU: MenuProps[] = [
   { key: 1, route: "home", name: SECTIONS[0] },
   { key: 2, route: "experience", name: SECTIONS[1] },
-  { key: 3, route: "projects", name: SECTIONS[2] },
-  { key: 4, route: "skills", name: SECTIONS[3] },
-  { key: 5, route: "Education", name: SECTIONS[4] },
+  { key: 3, route: "Web development projects", name: SECTIONS[2] },
+  { key: 3, route: "Data analytics projects", name: SECTIONS[3] },
+  { key: 4, route: "skills", name: SECTIONS[4] },
+  { key: 5, route: "Education", name: SECTIONS[5] },
 ];
 
-export const GREETING_TEXT = "Mechatronics, Web Designer & Developer based in Quito, Ecuador";
+export const GREETING_TEXT = "Software Developer & Data Scientist based in Quito, Ecuador";
 export const GREETING_DESCRIPTION =
-  "I'm a mechatronics engineering graduated, and web developer with techs such as React, Angular and symphony. I'm data science lover with python, too!";
+  "I'm data science and data analytics lover with python and a software developer with expertise in React, Angular and symphony.";
 
 export const EXPERIENCE: TimelineProps[] = [
   {
@@ -70,6 +74,8 @@ export const EXPERIENCE: TimelineProps[] = [
 ];
 export const KEYWORDS = [
   "Developer",
+  "Data Science",
+  "Data Analytics",
   "front end developer based in Ecuador",
   "John Barcia",
   "E Portfolio",
@@ -140,6 +146,39 @@ export const projects: ProjectCardProps[] = [
     link: "",
     buttonText: "View Project",
     tech: ["React", "FastAPI","MongoDB"],
+  },
+];
+
+export const projectsData: ProjectCardProps[] = [
+  {
+    id: 1,
+    projectName: "Bank Loan Default Prediction",
+    projectDescription:
+      "The project focuses in identify defaulters to reduce losses allowing Bad customers to get loans, it this a classfication problem with labeled data",
+    projectImageLogo: loan,
+    link: "https://jebarcia77.github.io/Loan-Default-Prediction/",
+    buttonText: "View Project",
+    tech: ["Logistic Regression", "Decision Trees", "Random Forest","Hyperparameter Tuning"],
+  },
+  {
+    id: 2,
+    projectName: "Predicting the conversion of leads to customer",
+    projectDescription:
+      "This project involves identifying which leads are more likely to convert to paid customers based on attributes of leads and their interaction details",
+    projectImageLogo: customerpred,
+    link: "https://jebarcia77.github.io/Potential-Customers-Prediction/",
+    buttonText: "View Project",
+    tech: ["Decision Trees", "Random Forest","Python","EDA"],
+  },
+  {
+    id: 3,
+    projectName: "Analyzing marketing campaigns to help the CMO devise the next best marketing strategy.",
+    projectDescription:
+      "This project aims to analyze marketing campaign and sales data to address important business questions related to customer demographics, product preferences, channel performances, etc",
+    projectImageLogo: eda,
+    link: "https://guuk.initiumsoft.com/web/",
+    buttonText: "View Project",
+    tech: ["Python", "Data analysis & Visualization"],
   },
 ];
 
