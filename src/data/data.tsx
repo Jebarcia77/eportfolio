@@ -176,7 +176,7 @@ export const projectsData: ProjectCardProps[] = [
     projectDescription:
       "This project aims to analyze marketing campaign and sales data to address important business questions related to customer demographics, product preferences, channel performances, etc",
     projectImageLogo: eda,
-    link: "https://guuk.initiumsoft.com/web/",
+    link: "https://jebarcia77.github.io/Marketing-Campaign-Analysis/",
     buttonText: "View Project",
     tech: ["Python", "Data analysis & Visualization"],
   },
