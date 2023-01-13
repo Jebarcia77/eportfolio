@@ -95,27 +95,27 @@ export const projects: ProjectCardProps[] = [
     projectImageLogo: `https://www.servinarium.com/wp-content/uploads/2021/12/control-de-talleres-servinarium.png`,
     link: "https://www.servinarium.com/",
     buttonText: "View Project",
-    tech: ["EJS", "TailwindCSS", "CSS", "Javascript","MongoDB"],
+    tech: ["Javascript","React Native", "TailwindCSS", "SCSS", "NodeJs","MySQL"],
   },
   {
     id: 2,
     projectName: "GVC Onboarding",
     projectDescription:
-      "Online onboarding webpage serving GVC GAESCO España with dynamics forms and validations, microservices, angular material, pdf generation. I developed the frontend",
+      "Online onboarding webpage serving GVC GAESCO España with dynamics forms and validations, microservices, angular material, pdf generation. I Developed and implemented an onboarding page for a new user registration process, including fields for personal information and account setup, data validation and error handling.",
     projectImageLogo: gvcImage,
     link: "https://onboarding.gvcgaesco.es/?hs_step=bienvenida/es",
     buttonText: "View Project",
-    tech: ["Angular", "Typescript","SCSS"],
+    tech: ["Typescript", "Angular","SCSS","AWS"],
   },
   {
     id: 3,
     projectName: "Guuk FrontOffice/BackOffice",
     projectDescription:
-      "A complete onboarding and  dashboard built for the branch Offices and vendors from Guuk(España) to generate orders and contracts for new and older clients. I developed the front end, and some features in the back, in a team using a scrum methodology.",
+      "A complete onboarding and  dashboard built for the branch Offices and vendors from Guuk(España) to generate orders and contracts for new and older clients. I developed developed a full-featured software solution that included both an attractive user interface for the front-office and an administrative task management system for the back-office.",
     projectImageLogo: guukImage,
     link: "https://guuk.initiumsoft.com/web/",
     buttonText: "View Project",
-    tech: ["React", "SCSS", "Typescript","MYSQL"],
+    tech: ["Typescript", "React/ReactNative","SCSS", "MaterialUI","NodeJs","MySQL","AWS"],
   },
   {
     id: 4,
@@ -125,17 +125,17 @@ export const projects: ProjectCardProps[] = [
     projectImageLogo: smartmeImg,
     link: "http://pre.admin.smartmeapp.com/login",
     buttonText: "View Project",
-    tech: ["Symphony", "PHP", "MYSQL", "AWS S3"],
+    tech: ["Javascript" ,"React","SCSS","MYSQL", "AWS"],
   },
   {
     id: 5,
-    projectName: "Portal de Atención Médica Mercantil-PAMM",
+    projectName: "Health care portal Mercantil-PAMM",
     projectDescription:
-      "generation of orders for medical services of the type Medicines, Medical Consultation, Special Studies and Laboratory, Rehabilitation and Physiotherapy, Prenatal Control. Management of documents related to orders, Report, Recipe and Indications, Identity Cards.",
+      "I Developed and implemented a medical services platform for providers, patients, doctors, a user-friendly interface for scheduling medical appointments, accessing patient medical history.",
     projectImageLogo: pammImage,
     link: "https://www.mercantilseguros.com/index.html",
     buttonText: "View Project",
-    tech: ["React", "WebPack", "AWS S3","MYSQL"],
+    tech: ["Typescript","React", "SCSS", "Material UI","NodeJs","MYSQL"],
   },
   {
     id: 6,
@@ -145,7 +145,7 @@ export const projects: ProjectCardProps[] = [
     projectImageLogo: myappImg,
     link: "",
     buttonText: "View Project",
-    tech: ["React", "FastAPI","MongoDB"],
+    tech: ["ReactcNative", "FastAPI","MongoDB"],
   },
 ];
 
