@@ -16,8 +16,8 @@ $ git remote add origin https://github.com/Jebarcia77/eportfolio.git
  "homepage":"http://Jebarcia77.github.io/eportfolio" 
 
 Y los scripts de ejecución en rama main:
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+- "predeploy": "npm run build",
+- "deploy": "gh-pages -d build"
 
 Correr los scripts por orden:
 - npm run build
