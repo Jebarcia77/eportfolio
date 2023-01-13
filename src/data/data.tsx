@@ -32,7 +32,10 @@ export const MENU: MenuProps[] = [
 
 export const GREETING_TEXT = "Software Developer & Data Scientist based in Quito, Ecuador";
 export const GREETING_DESCRIPTION =
-  "I'm data science and data analytics lover with python and a software developer with expertise in React, Angular and symphony.";
+   "I'm sSR advanced Front end developer with expertise in React JS/TS  and React Native with  3+ years of experience."+
+   "I've worked succesfully with multidisciplinary teams under SCRUM methodolgy in several web and mobile projects."+
+   "I have studied an Applied Data Science program on the MIT Professional education because data and its processing is essential for decision-making in any business and it is a plus for a developer."+
+   "And I'm learning every day, working hard to improve my hard and soft skills"
 
 export const EXPERIENCE: TimelineProps[] = [
   {
